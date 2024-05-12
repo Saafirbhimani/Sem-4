@@ -5,7 +5,7 @@ class PEKKAhy {
     }
 }
 // Child class 1
-class hyPEKKA extends PEKKA {
+class hyPEKKA extends PEKKAhy {
     void bark() {
         System.out.println("hyPEKKA is barking");
     }

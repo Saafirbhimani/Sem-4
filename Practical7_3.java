@@ -1,4 +1,4 @@
-class Child implements mummy, papa
+class Child implements Mummy, Papa
 {
     int month=8;
     public void dance(){
@@ -10,18 +10,4 @@ class Child implements mummy, papa
         System.out.println(o.month);
     }
 }
-Interfaces:
 
-Papa.java:
-	
-public interface papa{		
-int month=6;						
-    public void dance();
-}
-
-Mummy.java
-
-public interface mummy
-{
-    public void dance();
-}
