@@ -1,0 +1,21 @@
+//method overriding
+class PEKKA{
+    public void run(){
+        System.out.println("PEKKA is Running");
+    }
+}
+class JangliPEKKA extends PEKKA{
+    public void run(){
+        System.out.println("JangliPEKKA is Running");
+    }
+}
+public class Practical6
+{
+    public static void main(String[] args)
+    {   
+        PEKKA obj2 = new PEKKA();
+        obj2.run();
+        JangliPEKKA obj1 = new JangliPEKKA();
+        obj1.run();
+    }
+}
